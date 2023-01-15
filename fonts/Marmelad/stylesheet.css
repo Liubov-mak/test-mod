@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Marmelad';
+    src: url('Marmelad-Regular.woff2') format('woff2'),
+        url('Marmelad-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

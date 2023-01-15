@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5, minimal-ui">
+    <meta name="description" content="Наркологическая клиника">
+    <meta name="theme-color" content="#ffffff">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Главная страница</title>
+    <meta name="keywords" content="">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="icon" href="images/logo.webp" type="image/x-icon">
+    <link href="css/main.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header__wrap"><a class="logo" href="index.html"><img width="48" height="42" src="images/logo.webp" alt="logo"></a>
+          <nav class="header__nav">
+            <ul>
+              <li><a href="#">Магазины</a></li>
+              <li><a href="#">Контакты</a></li>
+              <li><a href="#">О нас</a></li>
+            </ul>
+          </nav>
+          <div class="header__activites"><a class="header__phone" href="tel:+36787547894">+3 67 8754 7894</a>
+            <div class="header__lang"><span class="header__lang_ru">Ru</span><span class="header__lang_eng">Eng</span></div>
+            <button class="btn enter">Войти</button>
+            <button class="btn tertiary account">Создать аккаунт</button>
+            <svg>
+              <use xlink:href="/images/sprites.svg#burger"></use>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="intro">
+        <div class="container">
+          <div class="intro__wrap">
+            <h1 class="intro__heading">Мы будем рады сотрудничать с вами на платформе 'Международной цветочной онлайн-площадки'!</h1>
+            <p class="intro__subheading">Присоединяйтесь к нам и начните получать доход с бизнеса в первый месяц регистрации!</p>
+            <div class="intro__activites">
+              <button class="btn primary">Начать покупать</button>
+              <button class="btn secondary">Начать продавать</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="form-section">
+        <div class="container">
+          <div class="form-section__wrap">
+            <div class="form-section__content">
+              <h2 class="form-section__content_title">Заполните форму и начните развивать свой бизнес прямо сейчас!</h2>
+              <p class="form-section__content_text">Регистрация на нашем сайте занимает несколько минут, просим ответить на все вопросы полностью и корректно! После подтверждения регистрации вы попадёте в систему, где большинство процессов автоматизированы, что сэкономит ваше время и деньги!</p>
+            </div>
+            <div class="form-section__info">
+              <form class="form" id="form">
+                <div class="form__screen_first">
+                  <div class="form__wrapper">
+                    <label class="form__label" for="name">Ваше имя</label>
+                    <input class="form__input name" type="text" name="name" id="name" placeholder="Фролова Александра Васильевна">
+                  </div>
+                  <div class="form__wrapper">
+                    <label class="form__label" for="company">Название Компании</label>
+                    <input class="form__input company" type="text" name="company" id="company" placeholder="ООО Атлантика">
+                  </div>
+                  <div class="form__wrapper">
+                    <label class="form__label" for="email">E-mail</label>
+                    <input class="form__input email" type="email" name="email" id="email" placeholder="flolovaalexa@com.ru">
+                  </div>
+                  <div class="form__wrapper">
+                    <label class="form__label" for="tel">Номер телефона</label>
+                    <input class="form__input phone" type="text" name="tel" id="tel" placeholder="+7 (XXX) - XXX XX XX">
+                  </div>
+                  <div class="form__wrapper">
+                    <label class="form__label" for="promo">Промокод</label>
+                    <input class="form__input promo" type="text" name="promo" id="promo" placeholder="HGF864">
+                  </div>
+                  <div class="form__footer">
+                    <button class="btn primary" type="button" id="more">Далее</button>
+                  </div>
+                </div>
+                <div class="form__screen_second">
+                  <div class="form__wrapper">
+                    <label class="form__label" for="password">Пароль</label>
+                    <input class="form__input password" type="password" name="password" id="password" placeholder="Создайте пароль">
+                  </div>
+                  <div class="form__wrapper">
+                    <label class="form__label" for="password-confirm">Подтвердите пароль</label>
+                    <input class="form__input password-confirm" type="password" name="password-confirm" id="password-confirm" placeholder="Повторите пароль">
+                  </div>
+                  <div class="form__wrapper">
+                    <div class="form__wrapper_img"><img width="320" height="94" src="images/code.webp" alt="code-img"></div>
+                  </div>
+                  <div class="form__wrapper">
+                    <label class="form__label" for="code">Введите символы из картинки</label>
+                    <input class="form__input code" type="text" name="code" id="code" placeholder="Код из картинки">
+                  </div>
+                  <div class="form__footer">
+                    <div class="form__footer_btns">
+                      <button class="btn secondary" type="button" id="back">Назад</button>
+                      <button class="btn primary" type="submit" id="submitBtn">Подтвердить</button>
+                    </div>
+                    <div class="control-checkbox">
+                      <div class="filter-check">
+                        <input class="filter-check__input" type="checkbox" id="check1" required data-parsley-errors-messages-disabled>
+                        <label class="filter-check__label" for="check1"></label>
+                      </div><span>Я даю согласие на обработку моих персональных данных и правовых документов</span>
+                    </div>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__holder" itemScope itemType="https://schema.org/LocalBusiness">
+          <div class="footer__wrap">
+            <h2 class="footer__title" itemProp="name">Наши офисы</h2>
+            <div class="footer__address">
+              <div class="footer__address_block"><small class="footer__address_title">Московский офис</small><a class="phone" href="tel:+74552678907" itemProp="telephone">+7 455 267-89-07</a>
+                <div class="address" itemProp="address" itemScope itemType="https://schema.org/PostalAddress"><span itemProp="streetAddress">Берсеневский пер., д. 56, стр. 4, 6-й эт.,&nbsp;</span><span itemProp="addressLocality">г. Москва,&nbsp;</span><span itemProp="postalCode">567754</span></div>
+              </div>
+              <div class="footer__address_block"><small class="footer__address_title">Ростовский офис</small><a class="phone" href="tel:+78788880167" itemProp="telephone">+7 878 888-01-67</a>
+                <div class="address" itemProp="address" itemScope itemType="https://schema.org/PostalAddress"><span itemProp="streetAddress">Буденовский пр-т, д. 84, 6-й эт.,&nbsp;</span><span itemProp="addressLocality">Ростов-на-Дону,&nbsp;</span><span itemProp="postalCode">679965</span></div>
+              </div>
+            </div>
+          </div>
+          <div class="footer__wrap">
+            <h2 class="footer__title">Мы в соц сетях</h2><a class="footer__link" href="#">Instagram</a><a class="footer__link" href="#">Facebook</a>
+          </div>
+          <div class="footer__wrap">
+            <h2 class="footer__title">Свяжитесь с нами</h2><a class="footer__phone" href="tel:+36787547894" itemProp="telephone">+3 67 8754 7894</a><a class="footer__email" href="mailto:mflowers@flo.com" itemProp="email">mflowers@flo.com</a>
+            <button class="btn primary">Написать
+              <svg>
+                <use xlink:href="/images/sprites.svg#letter"></use>
+              </svg>
+            </button>
+          </div>
+        </div>
+        <p class="footer__copyright">Авторские права 2008-2022 M-flowers.com</p>
+      </div>
+    </footer>
+    <script src="js/libs/svgxuse.min.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
