@@ -619,7 +619,7 @@ small{
         display:-webkit-flex;
         display:flex; } }
 .form-section{
-  background-image:url("../../../images/img3.webp");
+  background-image:url("../images/img3.webp");
   background-position:center;
   background-size:cover;
   padding:20px 0;
@@ -647,7 +647,7 @@ small{
 @media screen and (min-width: 1366px){
       .form-section__wrap{
         padding:80px;
-        background-image:url("../../../images/img1.webp");
+        background-image:url("../images/img1.webp");
         background-position:center;
         background-size:cover;
         max-width:1140px;
@@ -678,7 +678,7 @@ small{
       min-width:320px;
       max-width:320px; } }
 .intro{
-  background-image:url("../../../images/img5.webp");
+  background-image:url("../images/img5.webp");
   background-position:center;
   background-size:cover;
   padding:152px 0;
@@ -686,10 +686,10 @@ small{
 @media screen and (min-width: 768px){
     .intro{
       padding:186px 0 209px;
-      background-image:url("../../../images/img4.webp"); } }
+      background-image:url("../images/img4.webp"); } }
 @media screen and (min-width: 1024px){
     .intro{
-      background-image:url("../../../images/img2.webp"); } }
+      background-image:url("../images/img2.webp"); } }
 @media screen and (min-width: 1366px){
     .intro{
       padding:292px 0; } }
